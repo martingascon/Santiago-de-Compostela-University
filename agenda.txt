@@ -1,0 +1,14 @@
+h      Dr. Alvarez Pol, Hector       ext: 13981  e-mail: hapol@fpddux.usc.es    GENP
+pepe   Prof. Benlliure Anaya, Jose   ext: 14079  e-mail: j.benlliure@usc.es     GENP		
+kike   Dr. Casarejos Ruiz, Enrique   ext: 13999  e-mail: enrique@fpddux.usc.es  GENP
+lola   Dra. Cortina Gil, Dolores     ext: 13968  e-mail: d.cortina@usc.es       GENP
+nacho  Prof. Duran Escribano,Ignacio ext: 14024  e-mail: duran@fpddux.usc.es	GENP
+manu   Caamaño Fresco, Manuel        ext: 14000  e-mail: fresco@fpddux.usc.es   GENP
+tere   Kurtukian Nieto, Teresa       ext: 13972  e-mail: teresa@fpddux.usc.es   GENP
+noe    Montes Alonso, Noelia         ext: 14000  e-mail: noe@fpddux.usc.es	GENP
+jj     Llerena, Juan Jose            ext: 13988  e-mail: jjllerena@usc.es	GENP
+dav    Pérez Loureiro, David         ext: 14013  e-mail: david@fpddux.usc.es	GENP
+carmen Rodriguez Taje, Carme         ext: 14000  e-mail: carme@fpddux.usc.es    GENP
+mar    Gascon Vazquez, Martin        ext: 14000  e-mail: mgascon@usc.es	        GENP
+Sec    Secretaria (Fisicas)          ext: 13984  
+  
