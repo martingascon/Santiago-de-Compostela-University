@@ -1,0 +1,225 @@
+#--------------------------------------Makefile de Martin ----------------------------------------
+#----------------------------------------------- declaración de variables------------------------------------------------------------
+20xygrafwerr = 20xygrafwerr.cc
+ajurepresent2 = ajurepresent2.cc
+ajurepresent = ajurepresent.cc
+bin2asc = bin2asc.cc
+chToHV = chToHV.cc
+5xchToHV = 5xchToHV.cc
+5xchToR = 5xchToR.cc
+5xshapToR = 5xshapToR.cc
+5xenerToR = 5xenerToR.cc
+chToR = chToR.cc
+chToR3 = chToR3.cc
+chToTi = chToTi.cc
+dxygraf2 = dxygraf2.cc
+dxygraf = dxygraf.cc
+dxygrafwerr = dxygrafwerr.cc
+enerToR = enerToR.cc
+espectro2 = espectro2.cc
+espectro3 = espectro3.cc
+espectro3x = espectro3x.cc
+espectro = espectro.cc
+gainToCH = gainToCH.cc
+gainToR = gainToR.cc
+graf = graf.cc
+juntar = juntar.cc
+nonUnifR = nonUnifR.cc
+nonUnif = nonUnif.cc
+nonUnifCH = nonUnifCH.cc
+nrepresent = nrepresent.cc
+represent = represent.cc
+shapToR = shapToR.cc
+suma2 = suma2.cc
+suma = suma.cc
+sumar = sumar.cc
+sumarSi2 = sumarSi2.cc
+sumarSi = sumarSi.cc
+temp = temp.cc
+timeToR = timeToR.cc
+tree = tree.cc
+txygraf = txygraf.cc
+txygrafwerr = txygrafwerr.cc
+xgraf = xgraf.cc
+xygraf = xygraf.cc
+xygrafwerr2 = xygrafwerr2.cc
+xygrafwerr = xygrafwerr.cc
+FLAGS = -I/usr/local/root/new/include -L/usr/local/root/new/lib -L/usr/local/root/new/lib -lCore -lCint -lHist -lRint -lMatrix -lPhysics  -pthread -lm -ldl -rdynamic
+#----------------------------------------------- procesos  ------------------------------------------------------------
+
+
+all:           20xygrafwerr dxygraf graf shapToR txygraf ajurepresent2 dxygrafwerr juntar suma2 txygrafwerr ajurepresent\
+               espectro2 suma xgraf bin2asc espectro3 sumar xygraf chToR2 sumarSi2 xygrafwerr2 chToR3 espectro nonUnif\
+	       sumarSi xygrafwerr chToTi gainToCH nrepresent timeToR3 dxygraf2 gainToR represent tree 
+
+
+20xygrafwerr:  $(20xygrafwerr) 
+		g++  $(FLAGS) -o ../20xygrafwerr $(20xygrafwerr) 
+
+
+ajurepresent2:	$(ajurepresent2)
+		g++ $(FLAGS) -o ../ajurepresent2 $(ajurepresent2)
+
+
+ajurepresent:	$(ajurepresent)
+		g++ $(FLAGS) -o ../2ajurepresent $(ajurepresent)
+
+
+bin2asc:	$(bin2asc)
+		g++ $(FLAGS) -o ../bin2asc $(bin2asc)
+
+chToHV:		$(chToHV)
+		g++ $(FLAGS) -o ../chToHV $(chToHV)
+
+5xchToHV:	$(5xchToHV)
+		g++ $(FLAGS) -o ../5xchToHV $(5xchToHV)
+
+5xchToR:	$(5xchToR)
+		g++ $(FLAGS) -o ../5xchToR $(5xchToR)
+
+5xshapToR:	$(5xshapToR)
+		g++ $(FLAGS) -o ../5xshapToR $(5xshapToR)
+
+
+5xenerToR:	$(5xenerToR)
+		g++ $(FLAGS) -o ../5xenerToR $(5xenerToR)
+
+
+chToR:		$(chToR)
+		g++ $(FLAGS) -o ../chToR $(chToR)
+
+chToR3:		$(chToR3)
+		g++ $(FLAGS) -o ../chToR3 $(chToR3)
+
+
+chToTi:		$(chToTi)
+		g++ $(FLAGS) -o ../chToTi $(chToTi)
+
+
+dxygraf2:	$(dxygraf2)
+		g++ $(FLAGS) -o ../dxygraf2 $(dxygraf2)
+
+
+dxygraf:	$(dxygraf)
+		g++ $(FLAGS) -o ../dxygraf $(dxygraf)
+
+dxygrafwerr:	$(dxygrafwerr)
+		g++ $(FLAGS) -o ../dxygrafwerr $(dxygrafwerr)
+
+enerToR:	$(enerToR)
+		g++ $(FLAGS) -o ../enerToR $(enerToR)
+
+espectro2:	$(espectro2)
+		g++ $(FLAGS) -o ../espectro2 $(espectro2)
+
+espectro3:	$(espectro3)
+		g++ $(FLAGS) -o ../espectro3 $(espectro3)
+
+espectro3x:	$(espectro3x)
+		g++ $(FLAGS) -o ../espectro3x $(espectro3x)
+
+
+espectro:	$(espectro)
+		g++ $(FLAGS) -o ../espectro $(espectro)
+
+gainToCH:	$(gainToCH)
+		g++ $(FLAGS) -o ../gainToCH $(gainToCH)
+
+gainToR:	$(gainToR)
+		g++ $(FLAGS) -o ../gainToR $(gainToR)
+
+graf:		$(graf)
+		g++ $(FLAGS) -o ../graf $(graf)
+
+juntar:		$(juntar)
+		g++ $(FLAGS) -o ../juntar $(juntar)
+
+nonUnifR:	$(nonUnifR)
+		g++ $(FLAGS) -o ../nonUnifR $(nonUnifR)
+
+nonUnif:	$(nonUnif)
+		g++ $(FLAGS) -o ../nonUnif $(nonUnif)
+
+nonUnifCH:	$(nonUnifCH)
+		g++ $(FLAGS) -o ../nonUnifCH $(nonUnifCH)
+
+
+
+nrepresent:	$(nrepresent)
+		g++ $(FLAGS) -o ../nrepresent $(nrepresent)
+
+represent:	$(represent)
+		g++ $(FLAGS) -o ../represent $(represent)
+
+shapToR:	$(shapToR)
+		g++ $(FLAGS) -o ../shapToR $(shapToR)
+
+suma2:		$(suma2)
+		g++ $(FLAGS) -o ../suma2 $(suma2)
+
+suma:		$(suma)
+		g++ $(FLAGS) -o ../suma $(suma)
+
+sumar:		$(sumar)
+		g++ $(FLAGS) -o ../sumar $(sumar)
+
+sumarSi2:	$(sumarSi2)
+		g++ $(FLAGS) -o ../sumarSi2 $(sumarSi2)
+
+sumarSi:	$(sumarSi)
+		g++ $(FLAGS) -o ../sumarSi $(sumarSi)
+
+temp:		$(temp)
+		g++ $(FLAGS) -o ../temp $(temp)
+
+timeToR:	$(timeToR)
+		g++ $(FLAGS) -o ../timeToR $(timeToR)
+
+
+tree:		$(tree)
+		g++ $(FLAGS) -o ../tree $(tree)
+
+txygraf:	$(txygraf)
+		g++ $(FLAGS) -o ../txygraf $(txygraf)
+
+txygrafwerr:	$(txygrafwerr)
+		g++ $(FLAGS) -o ../txygrafwerr $(txygrafwerr)
+
+xgraf:		$(xgraf)
+		g++ $(FLAGS) -o ../xgraf $(xgraf)
+
+xygraf:		$(xygraf)
+		g++ $(FLAGS) -o ../xygraf $(xygraf)
+
+xygrafwerr2:	$(xygrafwerr2)
+		g++ $(FLAGS) -o ../xygrafwerr2 $(xygrafwerr2)
+
+xygrafwerr:	$(xygrafwerr)
+		g++ $(FLAGS) -o ../xygrafwerr $(xygrafwerr)
+
+
+#--------aqui se agregarán nuevos procesos --------------- fin: Nota: La proxima vez, no hacer caso a David.....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
